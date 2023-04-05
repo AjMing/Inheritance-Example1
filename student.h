@@ -4,8 +4,7 @@
 class student:public MU_person{
 private:
           double gpa; 
-	  int id ;
-	  string name;
+	
 public:
     student(long=111 ,double=2.5,string="Nattawut");
     ~student();
