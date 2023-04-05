@@ -1,4 +1,3 @@
-#include "Thai_person.h"
 
 class MU_person{
 private: long id;
@@ -17,13 +16,11 @@ MU_person::~MU_person(){
   cout<<"Destructor id="<<id<<endl;
 }
 MU_person::MU_person(long x,string n){
-   	      id=x;
-          name=n;
+   	  // Set up all MU_Person values
          cout<<"MU person constructor "<<id<<endl;
 }
 
 void MU_person::display_person(){
   
-     cout<<"ID:"<<id<<endl;
-   cout<<"name:"<<name<<endl;
+    
 }
