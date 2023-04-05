@@ -18,5 +18,3 @@ int main(){
 
 // Add constructor --> set name 
 // modify display() -->id/name/gpa
-
-//Try until 14:55 -->
